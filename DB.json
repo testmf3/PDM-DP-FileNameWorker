@@ -1,0 +1,50 @@
+{
+    "PRJ":
+    [
+        {
+            "value": "TMK"
+        },
+        {
+            "value": "TML"
+        }
+        {
+            "value": "TMZ"
+        }
+    ],
+    "STG":
+    [
+        {
+            "value": "D01"
+        },
+        {
+            "value": "D02"
+        }
+        {
+            "value": "Z00"
+        }
+    ],
+    "R":
+    [
+        {
+            "value": "B"
+        },
+        {
+            "value": "C"
+        }
+        {
+            "value": "D"
+        }
+    ],
+    "SYS":
+    [
+        {
+            "value": "L01"
+        },
+        {
+            "value": "E02"
+        }
+        {
+            "value": "ZZ"
+        }
+    ]
+}
