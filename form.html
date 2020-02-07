@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+    <h1>Введите данные</h1>
+    <form  action="/getInfo" method="POST" name="form" >
+
+       <p><i>Шифр проекта</i></p>
+        <p> <select name="cipher" required>
+            <option value="TMK">TMK</option>
+            <option value="TML">TML</option>
+            <option value="TMZ">TMZ</option>
+        </select>
+        </p>
+        <p><i>Фаза разработки</i></p>
+        <p> <select name="stg" required>
+            <option value="D01">D01</option>
+            <option value="D02">D02</option>
+            <option value="Z00">Z00</option>
+        </select>
+        </p>
+        <p><i>Номер объекта</i></p>
+        <p><input name="numberOfObj" placeholder="Номер объекта " required /></p>
+        <p><i>Роль в процессе</i></p>
+        <p> <select name="role" required>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+        </select>
+        </p>
+        <p><i>Система/подсистема</i></p>
+        <p> <select name="sys" required>
+            <option value="L01">L01</option>
+            <option value="E02">E02</option>
+            <option value="ZZ">ZZ</option>
+        </select>
+        </p>   
+        <p><i>Описание</i></p>   
+        <p><input name="dsc" placeholder="Описание " value="x"/></p>
+        <p><i>Версия</i></p>       
+        <p><input name="ver" placeholder="Версия " value="x"/></p>
+        <p><i>Код владельца файла</i></p> 
+        <p><input name="sth" placeholder="Код владельца файла " value="x" /></p>
+        <p><i>Тип даных</i></p> 
+        <p><input name="dt" placeholder="Тип данных " value="x"/></p>
+        <p><i>Дата</i></p> 
+        <p><input name="dat" pattern="\d{0,9}\d{0,9}\d{0,1}\d{0,9}\d{0,3}\d{1,9}" placeholder="Дата yymmdd"/></p>
+                
+
+        <button>Отправить</button>
+
+    </form>
+</body>
+</html>
